@@ -1,0 +1,111 @@
+.head-wrap{
+  width:100%;
+  height:1.33rem;
+  background:linear-gradient(225deg,rgba(255,114,59,1) 0%,rgba(252,62,75,1) 100%);
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 10;
+  line-height: 1.33rem;
+}
+.choose_song{
+  color:rgba(255,255,255,1);
+  font-size: 20px;
+  position: absolute;
+  left:20px;
+  letter-spacing: 1px;
+  float:left;
+  width:1.2rem;
+}
+.input_wrap{
+  width:5.72rem;
+  height:0.72rem;
+  background:rgba(0,0,0,0.147);
+  border-radius:13px;
+  float:left;
+  margin-top:0.345rem;
+  overflow: hidden;
+  position: absolute;
+  left: 2.2rem;
+}
+.search_input{
+  width: 50%;
+  border:none;
+  display: block;
+  background:none;
+  height:0.47rem;
+  color:#fff;
+  float:left;
+  margin-top:0.125rem;
+}
+input::-webkit-input-placeholder {
+  /* placeholder颜色  */
+  color:rgba(229,229,229,1);
+  /* placeholder字体大小  */
+  font-size: 12px;
+  /* placeholder位置  */
+  text-align: center;
+}
+.search_img{
+  width: 0.5rem;
+  height: 0.5rem;
+  display: block;
+  float:left;
+  margin-top:0.085rem;
+  margin-left: 1rem;
+}
+.maik_img{
+  width: 0.5rem;
+  height: 0.5rem;
+  display: block;
+  float:left;
+  margin-top:0.085rem;
+}
+.user_img,.user_img_login{
+  width:0.94rem;
+  height: 0.94rem;
+  border-radius:50%;
+  background:#fff;
+  float:left;
+  position: absolute;
+  margin-left:0.55rem;
+  right: 0.6rem;
+  margin-top:0.195rem;
+  background:url(../../assets/img/me.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+.user_img_login{
+  background:url(../../assets/img/head.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.cancel{
+  width:1rem;
+  height: 0.94rem;
+  float:left;
+  position: absolute;
+  margin-left:0.55rem;
+  right: 0.6rem;
+  margin-top:0.195rem;
+  color:#fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 0.94rem;
+}
+.change_input_w{
+  width:7.5rem;
+  left:0.5rem;
+  transition: all linear 0.2s;
+}
+.back_input_w{
+  width:5.72rem;
+  transition: all linear 0.2s;
+}
+.change_left_w{
+  left:-1.2rem;
+  transition: all linear 0.2s;
+}
+.back_left_w{
+  left:20px;
+  transition: all linear 0.2s;
+}
+

@@ -1,0 +1,61 @@
+.sign_wrap{
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  z-index: 9999;
+  overflow: hidden;
+  background:#f8f8f8;
+  font-family:PingFangSC-Regular;
+  top:0;
+  left: 0;
+  .sign_head{
+    width: 100%;
+    height: 1.33rem;
+    line-height: 1.33rem;
+    text-align: center;
+    font-size: 16px;
+    color:#000000;
+    position: relative;
+    background:#fff;
+  }
+  .nick_return{
+    width: 1.5rem;
+    height: 100%;
+    background:url('../../../assets/img/return_block.png') no-repeat center;
+    background-size: 0.5rem 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .save_nick{
+    width: 2rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .text{
+    width: 100%;
+    border:none;
+    height:100px;
+    margin-top: 10px;
+    font-size: 16px;
+    color:#282828;
+    line-height: 30px;
+    text-indent: 20px;
+    resize:none;
+    font-family:PingFangSC-Regular;
+  }
+  .text::-webkit-input-placeholder{
+    text-align: left;
+    text-indent: 20px;
+    font-size: 16px;
+    color:#999999;
+    font-family:PingFangSC-Regular;
+  }
+  .num{
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+  }
+}

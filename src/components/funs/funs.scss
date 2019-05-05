@@ -1,0 +1,135 @@
+.funs_wrap{
+  width: 100%;
+  height: 100%;
+  background:#f8f8f8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  font-family: PingFang-SC-Medium;
+  .funs_head{
+    width: 100%;
+    height: 1.33rem;
+    line-height: 1.33rem;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    z-index: 9999;
+    background:skyblue;
+    color:#fff;
+  }
+  .funs_return{
+    width: 1.5rem;
+    height: 100%;
+    background:url('../../assets/img/return.png') no-repeat center;
+    background-size: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .funs_nav{
+    width: 100%;
+    height: 1.1rem;
+    background:#fff;
+    line-height: 1.1rem;
+    color:#282828;
+    font-size: 14px;
+    border-top: 1px solid rgb(34, 148, 62);
+    border-bottom: 1px solid rgb(34, 148, 62);
+    .nav_inner{
+      height: 1.1rem;
+      width:16rem;
+    }
+    .nav_inner ul{
+      width: 100%;
+    }
+    .nav_inner ul li{
+      float:left;
+      width:1.6rem;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    .addbg{
+      color:orange;
+    }
+  }
+  .datactn{
+    position: fixed;
+    top: 2.5rem;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    ul{
+      overflow: hidden;
+      background:#f8f8f8;
+      height:auto;
+      .listli{
+        width: 100%;
+        margin:0 auto;
+        overflow: hidden;
+        height:auto;
+        background:#fff;
+        margin-bottom:10px;
+      }
+      .listtitle{
+        width: 90%;
+        margin:0 auto;
+        font-size: 14px;
+        color:#444;
+        padding:10px 0;
+      }
+      .imgwrap{
+        width: 90%;
+        overflow: hidden;
+        margin:0 auto;
+        position: relative;
+        img{
+          display: inline-block;
+          width: 32%;
+        }
+        .leftimg{
+          float:left;
+        }
+        .rightimg{
+          float:right;
+        }
+        .middleimg{
+          margin:0 auto;
+          position: absolute;
+          left: 50%;
+          margin-left:-16%;
+        }
+      }
+      .author{
+        width: 90%;
+        margin:0 auto;
+        overflow: hidden;
+        padding:10px 0;
+        font-size: 13px;
+        color:#777;
+      }
+      .timedata{
+        float:right;
+      }
+    }
+  }
+  .refreshp{
+    width: 100%;
+    height: 2.66rem;
+    text-align: center;
+    font-size: 13px;
+    color:skyblue;
+    img{
+      width: 30px;
+      height: 30px;
+      display:block;
+      margin:5px auto 5px;
+      animation: move 2s linear 0s infinite;
+    }
+    @keyframes move {
+      0%{transform: rotate(0)}
+      100%{transform: rotate(360deg)}
+    }
+  }
+}

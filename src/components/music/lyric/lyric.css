@@ -1,0 +1,35 @@
+.ly_wrap{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background:rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+
+.lyric_div{
+  width: 90%;
+  height: 55%;
+  color:#fff;
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:auto;
+  text-align: center;
+  color:#fff;
+  overflow: hidden;
+}
+.lyric_div ul{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top:140px;
+}
+.lyric_div ul li{
+  height:35px;
+  line-height: 35px;
+  overflow: hidden;
+}

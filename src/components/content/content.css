@@ -1,0 +1,10 @@
+.content_wrap{
+  width:91%;
+  position: fixed;
+  top:1.33rem;
+  bottom:0;
+  color:#555;
+  height:auto;
+  left:50%;
+  margin-left: -45.5%;
+}

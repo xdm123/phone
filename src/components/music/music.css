@@ -1,0 +1,238 @@
+.music_wrap{
+  width: 100%;
+  background:#fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 11;
+  overflow: hidden;
+}
+.music_head{
+  width: 100%;
+  height: 1.33rem;
+  line-height: 1.33rem;
+  font-size: 14px;
+  color:#282828;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+}
+.min_music{
+  width: 1.5rem;
+  height: 1.33rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background:url('../../assets/img/close.png') no-repeat center;
+  background-size: 0.5rem;
+}
+.music_ctn{
+  width: 100%;
+  height: 9rem;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background:#fff;
+  margin:0.2rem 0;
+}
+.song_name{
+  width: 100%;
+  font-size: 0.5rem;
+  height: 0.8rem;
+  letter-spacing: 2px;
+  color: rgb(43, 39, 39);
+  text-align: center;
+}
+.singer_name{
+  width: 100%;
+  text-align: center;
+  font-size: 0.4rem;
+  letter-spacing: 2px;
+  color: #444;
+  /* margin-top: 0.4rem; */
+  height: 0.6rem;
+}
+.font_img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0.4rem;
+  animation: move 15s linear 0s infinite;
+}
+.fontimg{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0.4rem;
+}
+@keyframes move{
+  0%{transform:rotate(0);}
+  100%{transform: rotate(360deg);}
+}
+.music_pross{
+  width: 70%;
+  margin:0 auto;
+  height: 1rem;
+  line-height: 1rem;
+  position: relative;
+  /* overflow: hidden; */
+  margin-top: 0.3rem;
+}
+.pross_line,.pross_line_copy{
+  width:100%;
+  height: 2px;
+  border-radius: 10px;
+  background:rgb(169, 223, 169);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  z-index: 1;
+}
+.pross_line_copy{
+  z-index: 2;
+  width: 0;
+  background:rgb(4, 0, 255);
+}
+.grag_btn{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top:50%;
+  margin-top: -7.5px;
+  background:rgb(78, 168, 131);
+  z-index: 2;
+}
+.music_time{
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color:#444;
+}
+.contral_box{
+  width: 90%;
+  position: relative;
+  margin-top: 0.5rem;
+  height: auto;
+  margin:0 auto;
+  margin-top: 0.5rem;
+}
+.music_start,.music_pre,.music_next{
+  width: 1.3rem;
+  height: 1.3rem;
+  background:url('../../assets/img/start.png') no-repeat center;
+  background-size: 60%;
+  border:1px solid green;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left:-0.65rem;
+}
+.stopmusic{
+  background:url('../../assets/img/stop.png') no-repeat center;
+  background-size: 70%;
+}
+.music_pre{
+  background:url('../../assets/img/pre.png') no-repeat center;
+  background-size: 60%;
+  margin-left: -2.5rem;
+}
+.music_next{
+  background:url('../../assets/img/next.png') no-repeat center;
+  background-size: 60%;
+  margin-left: 1.2rem;
+}
+.music_order{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.15rem;
+}
+.ordertype0{
+  background:url('../../assets/img/order_0.png') no-repeat center;
+  background-size: 60%;
+}
+.ordertype1{
+  background:url('../../assets/img/order_1.png') no-repeat center;
+  background-size: 60%;
+}
+.ordertype2{
+  background:url('../../assets/img/order_2.png') no-repeat center;
+  background-size: 60%;
+}
+.music_all{
+  width: 1rem;
+  height: 1rem;
+  background:url('../../assets/img/all.png') no-repeat center;
+  background-size: 60%;
+  border-radius: 50%;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.15rem;
+}
+.playlist{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  top:0;
+  background:rgba(0,0,0,0.7);
+}
+.list_ul{
+  width: 80%;
+  height:60%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto;
+  background:#fff;
+  border-radius: 10px;
+  overflow-y: auto;
+  padding:20px 0;
+}
+.list_ul li{
+  line-height: 50px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-indent: 21px;
+}
+.curele{
+  background:rgba(231, 87, 20, 0.322);
+  color:#fff;
+}
+.lyricwrap{
+  width: 100%;
+  height:9.4rem;
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+.openlyric{
+  transform: rotateY(180deg);
+  transition: all 0.5s linear;
+}
+.hidelyric{
+  transform: rotateY(0deg);
+  transition: all 0.5s linear;
+}
+.transitionSearch-enter-active,
+.transitionSearch-leave-active {
+  transition: all 0.3s;
+}
+
+.transitionSearch-enter{
+  transform: translate3d(0%, 100%, 0);
+}
+.transitionSearch-leave-to{
+  transform: translate3d(0%, 100%, 0);
+}
